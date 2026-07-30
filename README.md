@@ -17,7 +17,7 @@ npx degit fallowlone/awesome-everything-projects/projects/lru-cache my-lru-cache
 cd my-lru-cache && bun test
 ```
 
-Or download the zip from the project page on the site, or clone everything:
+Or clone everything:
 
 ```bash
 git clone https://github.com/fallowlone/awesome-everything-projects.git
