@@ -1,0 +1,17 @@
+{
+  "slug": "presigned-upload",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Presigned upload flow",
+    "ru": "Загрузка через presigned URL"
+  },
+  "difficulty": "intermediate",
+  "tracks": [
+    "backend",
+    "apis",
+    "security"
+  ],
+  "estDays": 4,
+  "url": "https://fallowlone.com/en/projects/presigned-upload"
+}

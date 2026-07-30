@@ -1,0 +1,16 @@
+{
+  "slug": "at-least-once-queue",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "At-least-once job queue",
+    "ru": "Очередь задач at-least-once"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "queues",
+    "distributed"
+  ],
+  "estDays": 6,
+  "url": "https://fallowlone.com/en/projects/at-least-once-queue"
+}

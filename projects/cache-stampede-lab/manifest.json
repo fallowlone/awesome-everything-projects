@@ -1,0 +1,15 @@
+{
+  "slug": "cache-stampede-lab",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Cache stampede lab",
+    "ru": "Лаборатория cache stampede"
+  },
+  "difficulty": "intermediate",
+  "tracks": [
+    "caching"
+  ],
+  "estDays": 4,
+  "url": "https://fallowlone.com/en/projects/cache-stampede-lab"
+}

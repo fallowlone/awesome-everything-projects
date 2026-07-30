@@ -1,0 +1,16 @@
+{
+  "slug": "regex-engine",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Regex engine",
+    "ru": "Движок регулярных выражений"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "algorithms",
+    "js-engine"
+  ],
+  "estDays": 7,
+  "url": "https://fallowlone.com/en/projects/regex-engine"
+}

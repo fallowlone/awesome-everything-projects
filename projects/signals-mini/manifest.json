@@ -1,0 +1,15 @@
+{
+  "slug": "signals-mini",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Signals mini",
+    "ru": "Мини-сигналы"
+  },
+  "difficulty": "intermediate",
+  "tracks": [
+    "frontend"
+  ],
+  "estDays": 3,
+  "url": "https://fallowlone.com/en/projects/signals-mini"
+}

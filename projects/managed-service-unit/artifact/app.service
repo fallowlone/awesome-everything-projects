@@ -1,0 +1,13 @@
+# TODO(you): this is YOUR work. Replace it with the unit file for your daemon and
+# run `bun test` until every check passes.
+#
+# What is here now is the unit almost everyone writes first: it starts, and that is
+# all it does. It runs as root, never restarts, has no resource budget, and none of
+# systemd's hardening is switched on. The suite will tell you exactly what is missing.
+[Unit]
+Description=
+
+[Service]
+ExecStart=app --serve
+
+[Install]

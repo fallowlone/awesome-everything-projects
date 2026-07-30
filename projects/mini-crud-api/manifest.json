@@ -1,0 +1,17 @@
+{
+  "slug": "mini-crud-api",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Mini CRUD API",
+    "ru": "Мини-CRUD API"
+  },
+  "difficulty": "starter",
+  "tracks": [
+    "node",
+    "backend",
+    "databases"
+  ],
+  "estDays": 4,
+  "url": "https://fallowlone.com/en/projects/mini-crud-api"
+}

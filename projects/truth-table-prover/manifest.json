@@ -1,0 +1,16 @@
+{
+  "slug": "truth-table-prover",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Truth-Table Prover",
+    "ru": "Прувер по таблицам истинности"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "logic",
+    "algorithms"
+  ],
+  "estDays": 8,
+  "url": "https://fallowlone.com/en/projects/truth-table-prover"
+}

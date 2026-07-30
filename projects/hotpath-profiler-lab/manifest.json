@@ -1,0 +1,17 @@
+{
+  "slug": "hotpath-profiler-lab",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Hot-Path Profiler Lab",
+    "ru": "Лаборатория профилирования горячего пути"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "js-engine",
+    "node",
+    "typescript"
+  ],
+  "estDays": 8,
+  "url": "https://fallowlone.com/en/projects/hotpath-profiler-lab"
+}

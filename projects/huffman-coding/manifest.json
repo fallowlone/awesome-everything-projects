@@ -1,0 +1,16 @@
+{
+  "slug": "huffman-coding",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Huffman coding",
+    "ru": "Кодирование Хаффмана"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "algorithms",
+    "data-engineering"
+  ],
+  "estDays": 6,
+  "url": "https://fallowlone.com/en/projects/huffman-coding"
+}

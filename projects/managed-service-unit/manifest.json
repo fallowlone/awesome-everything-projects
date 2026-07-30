@@ -1,0 +1,15 @@
+{
+  "slug": "managed-service-unit",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "A Service systemd Trusts",
+    "ru": "Сервис, которому доверяет systemd"
+  },
+  "difficulty": "intermediate",
+  "tracks": [
+    "linux"
+  ],
+  "estDays": 7,
+  "url": "https://fallowlone.com/en/projects/managed-service-unit"
+}

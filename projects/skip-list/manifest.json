@@ -1,0 +1,16 @@
+{
+  "slug": "skip-list",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Skip list",
+    "ru": "Список с пропусками"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "algorithms",
+    "databases"
+  ],
+  "estDays": 6,
+  "url": "https://fallowlone.com/en/projects/skip-list"
+}

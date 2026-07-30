@@ -1,0 +1,16 @@
+{
+  "slug": "lru-cache",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "LRU cache",
+    "ru": "LRU-кэш"
+  },
+  "difficulty": "intermediate",
+  "tracks": [
+    "backend",
+    "caching"
+  ],
+  "estDays": 4,
+  "url": "https://fallowlone.com/en/projects/lru-cache"
+}

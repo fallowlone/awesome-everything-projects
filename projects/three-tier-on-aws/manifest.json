@@ -1,0 +1,17 @@
+{
+  "slug": "three-tier-on-aws",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Three-Tier App on AWS, by IaC",
+    "ru": "Трёхзвенное приложение на AWS через IaC"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "aws",
+    "docker",
+    "security-cloud"
+  ],
+  "estDays": 9,
+  "url": "https://fallowlone.com/en/projects/three-tier-on-aws"
+}

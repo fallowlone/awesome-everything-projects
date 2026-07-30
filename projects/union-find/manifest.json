@@ -1,0 +1,16 @@
+{
+  "slug": "union-find",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Union-Find (Disjoint Set Union)",
+    "ru": "Union-Find (система непересекающихся множеств)"
+  },
+  "difficulty": "intermediate",
+  "tracks": [
+    "algorithms",
+    "distributed"
+  ],
+  "estDays": 4,
+  "url": "https://fallowlone.com/en/projects/union-find"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "trie-autocomplete",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Trie autocomplete engine",
+    "ru": "Движок автодополнения на основе trie"
+  },
+  "difficulty": "intermediate",
+  "tracks": [
+    "algorithms",
+    "frontend"
+  ],
+  "estDays": 4,
+  "url": "https://fallowlone.com/en/projects/trie-autocomplete"
+}

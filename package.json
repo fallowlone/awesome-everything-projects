@@ -1,0 +1,12 @@
+{
+  "name": "awesome-everything-projects",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "grade": "bun tools/grade.mjs",
+    "grade:all": "bun tools/grade.mjs --all"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}

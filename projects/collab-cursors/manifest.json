@@ -1,0 +1,22 @@
+{
+  "slug": "collab-cursors",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Collaborative cursors",
+    "ru": "Совместные курсоры"
+  },
+  "difficulty": "intermediate",
+  "tracks": [
+    "networking",
+    "frontend",
+    "react",
+    "browser",
+    "distributed",
+    "queues",
+    "performance",
+    "observability"
+  ],
+  "estDays": 6,
+  "url": "https://fallowlone.com/en/projects/collab-cursors"
+}

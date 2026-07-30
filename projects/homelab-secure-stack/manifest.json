@@ -1,0 +1,18 @@
+{
+  "slug": "homelab-secure-stack",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Homelab Secure Stack",
+    "ru": "Защищённый домашний стек"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "docker",
+    "networking",
+    "security-defensive",
+    "cli"
+  ],
+  "estDays": 5,
+  "url": "https://fallowlone.com/en/projects/homelab-secure-stack"
+}

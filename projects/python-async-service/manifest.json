@@ -1,0 +1,19 @@
+{
+  "slug": "python-async-service",
+  "stack": "python",
+  "test": "python3 -m unittest discover -p \"test_*.py\"",
+  "title": {
+    "en": "Async Python service, built and operated",
+    "ru": "Асинхронный Python-сервис: собрать и эксплуатировать"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "python",
+    "backend",
+    "performance",
+    "observability",
+    "deployment"
+  ],
+  "estDays": 8,
+  "url": "https://fallowlone.com/en/projects/python-async-service"
+}

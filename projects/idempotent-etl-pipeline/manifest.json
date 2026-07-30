@@ -1,0 +1,18 @@
+{
+  "slug": "idempotent-etl-pipeline",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Idempotent ETL Pipeline",
+    "ru": "Идемпотентный ETL-конвейер"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "data-engineering",
+    "backend",
+    "databases",
+    "sql-postgres"
+  ],
+  "estDays": 9,
+  "url": "https://fallowlone.com/en/projects/idempotent-etl-pipeline"
+}

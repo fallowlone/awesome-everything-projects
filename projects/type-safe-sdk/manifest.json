@@ -1,0 +1,17 @@
+{
+  "slug": "type-safe-sdk",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Type-Safe API SDK",
+    "ru": "Типобезопасный SDK для API"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "typescript",
+    "apis",
+    "backend"
+  ],
+  "estDays": 8,
+  "url": "https://fallowlone.com/en/projects/type-safe-sdk"
+}

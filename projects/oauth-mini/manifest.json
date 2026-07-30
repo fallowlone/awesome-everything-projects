@@ -1,0 +1,16 @@
+{
+  "slug": "oauth-mini",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Mini OAuth 2.0 + PKCE login",
+    "ru": "Мини OAuth 2.0 + PKCE логин"
+  },
+  "difficulty": "starter",
+  "tracks": [
+    "security",
+    "apis"
+  ],
+  "estDays": 3,
+  "url": "https://fallowlone.com/en/projects/oauth-mini"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "authorized-recon-ctf-lab",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Authorized Recon-to-Remediation Lab",
+    "ru": "Лаборатория «от разведки до устранения» в авторизованном окружении"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "security-offensive",
+    "security-defensive",
+    "security-foundations"
+  ],
+  "estDays": 8,
+  "url": "https://fallowlone.com/en/projects/authorized-recon-ctf-lab"
+}

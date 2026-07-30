@@ -1,0 +1,27 @@
+{
+  "system": "My system",
+  "problem": "It needs to scale.",
+  "load": {
+    "peakRps": 0,
+    "readWriteRatio": 0,
+    "avgPayloadBytes": 0,
+    "retentionDays": 0
+  },
+  "capacity": {
+    "storageGb": 0,
+    "peakBandwidthMbps": 0,
+    "derivation": ""
+  },
+  "bottleneck": "TBD",
+  "decisions": [
+    {
+      "id": "d1",
+      "title": "Database",
+      "chosen": "Postgres",
+      "rejected": [],
+      "tradeoff": ""
+    }
+  ],
+  "slos": [],
+  "failureModes": []
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "query-plan-visualizer",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Query plan visualizer",
+    "ru": "Визуализатор планов запросов"
+  },
+  "difficulty": "intermediate",
+  "tracks": [
+    "databases"
+  ],
+  "estDays": 5,
+  "url": "https://fallowlone.com/en/projects/query-plan-visualizer"
+}

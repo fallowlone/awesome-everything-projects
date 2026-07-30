@@ -1,0 +1,26 @@
+{
+  "app": "",
+  "boundaries": [
+    "browser -> api"
+  ],
+  "assets": [],
+  "threats": [
+    {
+      "id": "t1",
+      "stride": "tampering",
+      "boundary": "browser -> api",
+      "description": "XSS somewhere",
+      "control": "TODO",
+      "evidence": "",
+      "residualRisk": ""
+    },
+    {
+      "id": "t2",
+      "stride": "tampering",
+      "boundary": "browser -> api",
+      "description": "SQL injection maybe",
+      "control": "",
+      "evidence": "n/a"
+    }
+  ]
+}

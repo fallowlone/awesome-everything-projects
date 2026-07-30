@@ -1,0 +1,16 @@
+{
+  "slug": "rate-limiter",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Distributed rate limiter",
+    "ru": "Распределённый rate limiter"
+  },
+  "difficulty": "intermediate",
+  "tracks": [
+    "apis",
+    "backend"
+  ],
+  "estDays": 4,
+  "url": "https://fallowlone.com/en/projects/rate-limiter"
+}

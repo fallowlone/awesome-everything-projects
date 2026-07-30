@@ -1,0 +1,18 @@
+{
+  "slug": "grounded-rag-service",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Grounded RAG Service",
+    "ru": "Сервис RAG с опорой на источники"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "ai-llm",
+    "backend",
+    "databases",
+    "observability"
+  ],
+  "estDays": 9,
+  "url": "https://fallowlone.com/en/projects/grounded-rag-service"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "text-diff-myers",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Text diff — Myers algorithm",
+    "ru": "Текстовый diff — алгоритм Майерса"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "algorithms",
+    "engineering-practice"
+  ],
+  "estDays": 6,
+  "url": "https://fallowlone.com/en/projects/text-diff-myers"
+}

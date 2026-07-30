@@ -1,0 +1,16 @@
+{
+  "slug": "feature-flags-service",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Feature-flag service",
+    "ru": "Сервис фич-флагов"
+  },
+  "difficulty": "intermediate",
+  "tracks": [
+    "backend",
+    "apis"
+  ],
+  "estDays": 5,
+  "url": "https://fallowlone.com/en/projects/feature-flags-service"
+}

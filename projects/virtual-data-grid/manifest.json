@@ -1,0 +1,16 @@
+{
+  "slug": "virtual-data-grid",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Virtual data grid",
+    "ru": "Виртуальная таблица данных"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "frontend",
+    "performance"
+  ],
+  "estDays": 5,
+  "url": "https://fallowlone.com/en/projects/virtual-data-grid"
+}

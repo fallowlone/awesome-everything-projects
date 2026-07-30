@@ -1,0 +1,19 @@
+{
+  "slug": "go-concurrent-service",
+  "stack": "go",
+  "test": "go test ./...",
+  "title": {
+    "en": "A concurrent Go ingest service",
+    "ru": "Конкурентный сервис ингеста на Go"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "go",
+    "backend",
+    "performance",
+    "observability",
+    "deployment"
+  ],
+  "estDays": 8,
+  "url": "https://fallowlone.com/en/projects/go-concurrent-service"
+}

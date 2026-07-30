@@ -1,0 +1,18 @@
+{
+  "slug": "react-feature-at-scale",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "React feature at scale",
+    "ru": "React-фича под нагрузкой"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "react",
+    "frontend",
+    "performance",
+    "observability"
+  ],
+  "estDays": 8,
+  "url": "https://fallowlone.com/en/projects/react-feature-at-scale"
+}

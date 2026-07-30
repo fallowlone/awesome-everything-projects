@@ -1,0 +1,15 @@
+{
+  "slug": "architecture-patterns-platform",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "B2B Order & Billing Platform Architecture",
+    "ru": "Архитектура B2B-платформы заказов и биллинга"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "architecture-patterns"
+  ],
+  "estDays": 5,
+  "url": "https://fallowlone.com/en/projects/architecture-patterns-platform"
+}

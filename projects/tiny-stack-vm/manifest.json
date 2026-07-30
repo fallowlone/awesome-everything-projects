@@ -1,0 +1,16 @@
+{
+  "slug": "tiny-stack-vm",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Tiny Stack VM",
+    "ru": "Крошечная стековая виртуальная машина"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "base-cs",
+    "algorithms"
+  ],
+  "estDays": 9,
+  "url": "https://fallowlone.com/en/projects/tiny-stack-vm"
+}

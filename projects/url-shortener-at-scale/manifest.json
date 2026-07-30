@@ -1,0 +1,25 @@
+{
+  "slug": "url-shortener-at-scale",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "URL shortener at scale",
+    "ru": "URL-сокращатель под нагрузкой"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "system-design",
+    "apis",
+    "databases",
+    "backend",
+    "caching",
+    "security",
+    "engineering-practice",
+    "ci-cd",
+    "deployment",
+    "observability",
+    "performance"
+  ],
+  "estDays": 10,
+  "url": "https://fallowlone.com/en/projects/url-shortener-at-scale"
+}

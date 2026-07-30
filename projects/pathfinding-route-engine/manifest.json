@@ -1,0 +1,16 @@
+{
+  "slug": "pathfinding-route-engine",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Pathfinding Route Engine",
+    "ru": "Движок поиска маршрутов"
+  },
+  "difficulty": "intermediate",
+  "tracks": [
+    "algorithms",
+    "base-cs"
+  ],
+  "estDays": 8,
+  "url": "https://fallowlone.com/en/projects/pathfinding-route-engine"
+}

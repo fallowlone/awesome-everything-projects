@@ -1,0 +1,17 @@
+{
+  "slug": "threat-model-and-harden",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Threat-Model and Harden a Small App",
+    "ru": "Моделирование угроз и закаливание небольшого приложения"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "security-foundations",
+    "security",
+    "security-defensive"
+  ],
+  "estDays": 8,
+  "url": "https://fallowlone.com/en/projects/threat-model-and-harden"
+}

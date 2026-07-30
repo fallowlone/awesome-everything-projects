@@ -1,0 +1,16 @@
+{
+  "slug": "offline-pwa-sync",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Offline PWA sync",
+    "ru": "Офлайн-синхронизация PWA"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "frontend",
+    "browser"
+  ],
+  "estDays": 6,
+  "url": "https://fallowlone.com/en/projects/offline-pwa-sync"
+}

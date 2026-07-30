@@ -1,0 +1,16 @@
+{
+  "slug": "write-ahead-log",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Crash-safe key-value store with a WAL",
+    "ru": "Краш-устойчивое key-value хранилище с WAL"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "databases",
+    "distributed"
+  ],
+  "estDays": 7,
+  "url": "https://fallowlone.com/en/projects/write-ahead-log"
+}

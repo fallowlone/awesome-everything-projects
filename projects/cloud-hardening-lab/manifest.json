@@ -1,0 +1,17 @@
+{
+  "slug": "cloud-hardening-lab",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Cloud Hardening Lab",
+    "ru": "Лаборатория харденинга облака"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "security-cloud",
+    "security-foundations",
+    "security-defensive"
+  ],
+  "estDays": 9,
+  "url": "https://fallowlone.com/en/projects/cloud-hardening-lab"
+}

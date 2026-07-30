@@ -1,0 +1,16 @@
+{
+  "slug": "system-design-dossier",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "System Design Dossier",
+    "ru": "Досье по проектированию системы"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "system-design-cases",
+    "system-design"
+  ],
+  "estDays": 8,
+  "url": "https://fallowlone.com/en/projects/system-design-dossier"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "nextjs-app-to-production",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "A Next.js app to production",
+    "ru": "Next.js-приложение в продакшен"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "nextjs",
+    "frontend",
+    "security",
+    "observability",
+    "performance"
+  ],
+  "estDays": 9,
+  "url": "https://fallowlone.com/en/projects/nextjs-app-to-production"
+}

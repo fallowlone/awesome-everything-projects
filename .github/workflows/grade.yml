@@ -1,0 +1,80 @@
+name: grade
+
+# Runs in YOUR fork, on your account's runners, over your own commits. Nothing is sent
+# anywhere. Push work inside projects/<slug>/ and this grades what you touched.
+#
+# `pull_request` (never `pull_request_target`) is used deliberately: a PR from a fork
+# then runs with a read-only token and no access to repository secrets.
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      slugs:
+        description: "Space-separated project slugs, or --all"
+        required: false
+        default: "--all"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: grade-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # full history so the changed-projects diff has a base to compare against
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      # @types/bun, so the strict type-check in the grader can resolve bun:test and node: imports.
+      - run: bun install --frozen-lockfile || bun install
+
+      # Optional: the Python grader falls back to compileall when ruff is absent, so a
+      # failure to install it must not fail the run.
+      - name: Install ruff (optional)
+        run: pipx install ruff || echo "ruff unavailable — grader will fall back to compileall"
+
+      # Event data is read through env, never interpolated into the shell, and the
+      # dispatch input is whitelisted — an arbitrary string here would otherwise be
+      # command injection.
+      - name: Work out what to grade
+        id: scope
+        env:
+          EVENT: ${{ github.event_name }}
+          SLUGS: ${{ github.event.inputs.slugs }}
+          PR_BASE: ${{ github.event.pull_request.base.sha }}
+          PUSH_BEFORE: ${{ github.event.before }}
+        run: |
+          set -euo pipefail
+          if [ "$EVENT" = "workflow_dispatch" ]; then
+            if [ "$SLUGS" = "--all" ] || [ -z "$SLUGS" ]; then
+              echo "args=--all" >> "$GITHUB_OUTPUT"
+            elif printf '%s' "$SLUGS" | grep -qE '^[a-z0-9-]+( [a-z0-9-]+)*$'; then
+              echo "args=$SLUGS" >> "$GITHUB_OUTPUT"
+            else
+              echo "Refusing to grade: slugs input must be --all or space-separated [a-z0-9-] slugs." >&2
+              exit 1
+            fi
+          elif [ "$EVENT" = "pull_request" ]; then
+            echo "args=--changed $PR_BASE" >> "$GITHUB_OUTPUT"
+          elif git rev-parse --verify --quiet "$PUSH_BEFORE^{commit}" > /dev/null; then
+            echo "args=--changed $PUSH_BEFORE" >> "$GITHUB_OUTPUT"
+          elif git rev-parse --verify --quiet HEAD~1 > /dev/null; then
+            # New branch or forced push: fall back to the previous commit.
+            echo "args=--changed HEAD~1" >> "$GITHUB_OUTPUT"
+          else
+            echo "args=--all" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Grade
+        env:
+          ARGS: ${{ steps.scope.outputs.args }}
+        run: bun tools/grade.mjs $ARGS

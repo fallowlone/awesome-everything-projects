@@ -1,0 +1,16 @@
+{
+  "slug": "consistent-hashing",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Consistent hashing ring",
+    "ru": "Кольцо consistent hashing"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "distributed",
+    "backend"
+  ],
+  "estDays": 5,
+  "url": "https://fallowlone.com/en/projects/consistent-hashing"
+}

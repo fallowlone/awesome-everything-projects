@@ -1,0 +1,16 @@
+{
+  "slug": "circuit-breaker",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Circuit breaker",
+    "ru": "Прерыватель цепи"
+  },
+  "difficulty": "intermediate",
+  "tracks": [
+    "backend",
+    "distributed"
+  ],
+  "estDays": 4,
+  "url": "https://fallowlone.com/en/projects/circuit-breaker"
+}

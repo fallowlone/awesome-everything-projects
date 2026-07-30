@@ -1,0 +1,17 @@
+{
+  "slug": "reporting-schema-optimizer",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Reporting Schema Optimizer",
+    "ru": "Оптимизатор отчётной схемы"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "sql-postgres",
+    "databases",
+    "data-engineering"
+  ],
+  "estDays": 8,
+  "url": "https://fallowlone.com/en/projects/reporting-schema-optimizer"
+}

@@ -1,0 +1,854 @@
+[
+  {
+    "slug": "architecture-patterns-platform",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "B2B Order & Billing Platform Architecture",
+      "ru": "Архитектура B2B-платформы заказов и биллинга"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "architecture-patterns"
+    ],
+    "estDays": 5,
+    "url": "https://fallowlone.com/en/projects/architecture-patterns-platform"
+  },
+  {
+    "slug": "at-least-once-queue",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "At-least-once job queue",
+      "ru": "Очередь задач at-least-once"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "queues",
+      "distributed"
+    ],
+    "estDays": 6,
+    "url": "https://fallowlone.com/en/projects/at-least-once-queue"
+  },
+  {
+    "slug": "authorized-recon-ctf-lab",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Authorized Recon-to-Remediation Lab",
+      "ru": "Лаборатория «от разведки до устранения» в авторизованном окружении"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "security-offensive",
+      "security-defensive",
+      "security-foundations"
+    ],
+    "estDays": 8,
+    "url": "https://fallowlone.com/en/projects/authorized-recon-ctf-lab"
+  },
+  {
+    "slug": "bloom-filter",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Bloom filter",
+      "ru": "Фильтр Блума"
+    },
+    "difficulty": "intermediate",
+    "tracks": [
+      "data-engineering",
+      "backend"
+    ],
+    "estDays": 4,
+    "url": "https://fallowlone.com/en/projects/bloom-filter"
+  },
+  {
+    "slug": "cache-stampede-lab",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Cache stampede lab",
+      "ru": "Лаборатория cache stampede"
+    },
+    "difficulty": "intermediate",
+    "tracks": [
+      "caching"
+    ],
+    "estDays": 4,
+    "url": "https://fallowlone.com/en/projects/cache-stampede-lab"
+  },
+  {
+    "slug": "circuit-breaker",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Circuit breaker",
+      "ru": "Прерыватель цепи"
+    },
+    "difficulty": "intermediate",
+    "tracks": [
+      "backend",
+      "distributed"
+    ],
+    "estDays": 4,
+    "url": "https://fallowlone.com/en/projects/circuit-breaker"
+  },
+  {
+    "slug": "cloud-hardening-lab",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Cloud Hardening Lab",
+      "ru": "Лаборатория харденинга облака"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "security-cloud",
+      "security-foundations",
+      "security-defensive"
+    ],
+    "estDays": 9,
+    "url": "https://fallowlone.com/en/projects/cloud-hardening-lab"
+  },
+  {
+    "slug": "collab-cursors",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Collaborative cursors",
+      "ru": "Совместные курсоры"
+    },
+    "difficulty": "intermediate",
+    "tracks": [
+      "networking",
+      "frontend",
+      "react",
+      "browser",
+      "distributed",
+      "queues",
+      "performance",
+      "observability"
+    ],
+    "estDays": 6,
+    "url": "https://fallowlone.com/en/projects/collab-cursors"
+  },
+  {
+    "slug": "command-palette",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Command palette",
+      "ru": "Палитра команд"
+    },
+    "difficulty": "intermediate",
+    "tracks": [
+      "frontend"
+    ],
+    "estDays": 3,
+    "url": "https://fallowlone.com/en/projects/command-palette"
+  },
+  {
+    "slug": "consistent-hashing",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Consistent hashing ring",
+      "ru": "Кольцо consistent hashing"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "distributed",
+      "backend"
+    ],
+    "estDays": 5,
+    "url": "https://fallowlone.com/en/projects/consistent-hashing"
+  },
+  {
+    "slug": "feature-flags-service",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Feature-flag service",
+      "ru": "Сервис фич-флагов"
+    },
+    "difficulty": "intermediate",
+    "tracks": [
+      "backend",
+      "apis"
+    ],
+    "estDays": 5,
+    "url": "https://fallowlone.com/en/projects/feature-flags-service"
+  },
+  {
+    "slug": "go-concurrent-service",
+    "stack": "go",
+    "test": "go test ./...",
+    "title": {
+      "en": "A concurrent Go ingest service",
+      "ru": "Конкурентный сервис ингеста на Go"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "go",
+      "backend",
+      "performance",
+      "observability",
+      "deployment"
+    ],
+    "estDays": 8,
+    "url": "https://fallowlone.com/en/projects/go-concurrent-service"
+  },
+  {
+    "slug": "grounded-rag-service",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Grounded RAG Service",
+      "ru": "Сервис RAG с опорой на источники"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "ai-llm",
+      "backend",
+      "databases",
+      "observability"
+    ],
+    "estDays": 9,
+    "url": "https://fallowlone.com/en/projects/grounded-rag-service"
+  },
+  {
+    "slug": "homelab-secure-stack",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Homelab Secure Stack",
+      "ru": "Защищённый домашний стек"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "docker",
+      "networking",
+      "security-defensive",
+      "cli"
+    ],
+    "estDays": 5,
+    "url": "https://fallowlone.com/en/projects/homelab-secure-stack"
+  },
+  {
+    "slug": "hotpath-profiler-lab",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Hot-Path Profiler Lab",
+      "ru": "Лаборатория профилирования горячего пути"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "js-engine",
+      "node",
+      "typescript"
+    ],
+    "estDays": 8,
+    "url": "https://fallowlone.com/en/projects/hotpath-profiler-lab"
+  },
+  {
+    "slug": "huffman-coding",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Huffman coding",
+      "ru": "Кодирование Хаффмана"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "algorithms",
+      "data-engineering"
+    ],
+    "estDays": 6,
+    "url": "https://fallowlone.com/en/projects/huffman-coding"
+  },
+  {
+    "slug": "idempotent-etl-pipeline",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Idempotent ETL Pipeline",
+      "ru": "Идемпотентный ETL-конвейер"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "data-engineering",
+      "backend",
+      "databases",
+      "sql-postgres"
+    ],
+    "estDays": 9,
+    "url": "https://fallowlone.com/en/projects/idempotent-etl-pipeline"
+  },
+  {
+    "slug": "job-scheduler",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Job scheduler",
+      "ru": "Планировщик задач"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "backend",
+      "queues"
+    ],
+    "estDays": 6,
+    "url": "https://fallowlone.com/en/projects/job-scheduler"
+  },
+  {
+    "slug": "json-parser",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "JSON parser from scratch",
+      "ru": "JSON-парсер с нуля"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "algorithms",
+      "typescript"
+    ],
+    "estDays": 6,
+    "url": "https://fallowlone.com/en/projects/json-parser"
+  },
+  {
+    "slug": "lru-cache",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "LRU cache",
+      "ru": "LRU-кэш"
+    },
+    "difficulty": "intermediate",
+    "tracks": [
+      "backend",
+      "caching"
+    ],
+    "estDays": 4,
+    "url": "https://fallowlone.com/en/projects/lru-cache"
+  },
+  {
+    "slug": "managed-service-unit",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "A Service systemd Trusts",
+      "ru": "Сервис, которому доверяет systemd"
+    },
+    "difficulty": "intermediate",
+    "tracks": [
+      "linux"
+    ],
+    "estDays": 7,
+    "url": "https://fallowlone.com/en/projects/managed-service-unit"
+  },
+  {
+    "slug": "mini-crud-api",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Mini CRUD API",
+      "ru": "Мини-CRUD API"
+    },
+    "difficulty": "starter",
+    "tracks": [
+      "node",
+      "backend",
+      "databases"
+    ],
+    "estDays": 4,
+    "url": "https://fallowlone.com/en/projects/mini-crud-api"
+  },
+  {
+    "slug": "nest-modular-service",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Production-Shaped Nest Service",
+      "ru": "Nest-сервис в продакшен-форме"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "nest",
+      "backend",
+      "node"
+    ],
+    "estDays": 9,
+    "url": "https://fallowlone.com/en/projects/nest-modular-service"
+  },
+  {
+    "slug": "nextjs-app-to-production",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "A Next.js app to production",
+      "ru": "Next.js-приложение в продакшен"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "nextjs",
+      "frontend",
+      "security",
+      "observability",
+      "performance"
+    ],
+    "estDays": 9,
+    "url": "https://fallowlone.com/en/projects/nextjs-app-to-production"
+  },
+  {
+    "slug": "numeric-toolkit",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Numeric Toolkit",
+      "ru": "Числовой инструментарий"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "math",
+      "algorithms"
+    ],
+    "estDays": 8,
+    "url": "https://fallowlone.com/en/projects/numeric-toolkit"
+  },
+  {
+    "slug": "oauth-mini",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Mini OAuth 2.0 + PKCE login",
+      "ru": "Мини OAuth 2.0 + PKCE логин"
+    },
+    "difficulty": "starter",
+    "tracks": [
+      "security",
+      "apis"
+    ],
+    "estDays": 3,
+    "url": "https://fallowlone.com/en/projects/oauth-mini"
+  },
+  {
+    "slug": "offline-pwa-sync",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Offline PWA sync",
+      "ru": "Офлайн-синхронизация PWA"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "frontend",
+      "browser"
+    ],
+    "estDays": 6,
+    "url": "https://fallowlone.com/en/projects/offline-pwa-sync"
+  },
+  {
+    "slug": "pathfinding-route-engine",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Pathfinding Route Engine",
+      "ru": "Движок поиска маршрутов"
+    },
+    "difficulty": "intermediate",
+    "tracks": [
+      "algorithms",
+      "base-cs"
+    ],
+    "estDays": 8,
+    "url": "https://fallowlone.com/en/projects/pathfinding-route-engine"
+  },
+  {
+    "slug": "personal-portfolio-page",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Personal portfolio page",
+      "ru": "Личная страница-портфолио"
+    },
+    "difficulty": "starter",
+    "tracks": [
+      "frontend",
+      "browser"
+    ],
+    "estDays": 3,
+    "url": "https://fallowlone.com/en/projects/personal-portfolio-page"
+  },
+  {
+    "slug": "presigned-upload",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Presigned upload flow",
+      "ru": "Загрузка через presigned URL"
+    },
+    "difficulty": "intermediate",
+    "tracks": [
+      "backend",
+      "apis",
+      "security"
+    ],
+    "estDays": 4,
+    "url": "https://fallowlone.com/en/projects/presigned-upload"
+  },
+  {
+    "slug": "python-async-service",
+    "stack": "python",
+    "test": "python3 -m unittest discover -p \"test_*.py\"",
+    "title": {
+      "en": "Async Python service, built and operated",
+      "ru": "Асинхронный Python-сервис: собрать и эксплуатировать"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "python",
+      "backend",
+      "performance",
+      "observability",
+      "deployment"
+    ],
+    "estDays": 8,
+    "url": "https://fallowlone.com/en/projects/python-async-service"
+  },
+  {
+    "slug": "query-plan-visualizer",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Query plan visualizer",
+      "ru": "Визуализатор планов запросов"
+    },
+    "difficulty": "intermediate",
+    "tracks": [
+      "databases"
+    ],
+    "estDays": 5,
+    "url": "https://fallowlone.com/en/projects/query-plan-visualizer"
+  },
+  {
+    "slug": "rate-limiter",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Distributed rate limiter",
+      "ru": "Распределённый rate limiter"
+    },
+    "difficulty": "intermediate",
+    "tracks": [
+      "apis",
+      "backend"
+    ],
+    "estDays": 4,
+    "url": "https://fallowlone.com/en/projects/rate-limiter"
+  },
+  {
+    "slug": "react-feature-at-scale",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "React feature at scale",
+      "ru": "React-фича под нагрузкой"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "react",
+      "frontend",
+      "performance",
+      "observability"
+    ],
+    "estDays": 8,
+    "url": "https://fallowlone.com/en/projects/react-feature-at-scale"
+  },
+  {
+    "slug": "regex-engine",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Regex engine",
+      "ru": "Движок регулярных выражений"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "algorithms",
+      "js-engine"
+    ],
+    "estDays": 7,
+    "url": "https://fallowlone.com/en/projects/regex-engine"
+  },
+  {
+    "slug": "reporting-schema-optimizer",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Reporting Schema Optimizer",
+      "ru": "Оптимизатор отчётной схемы"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "sql-postgres",
+      "databases",
+      "data-engineering"
+    ],
+    "estDays": 8,
+    "url": "https://fallowlone.com/en/projects/reporting-schema-optimizer"
+  },
+  {
+    "slug": "signals-mini",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Signals mini",
+      "ru": "Мини-сигналы"
+    },
+    "difficulty": "intermediate",
+    "tracks": [
+      "frontend"
+    ],
+    "estDays": 3,
+    "url": "https://fallowlone.com/en/projects/signals-mini"
+  },
+  {
+    "slug": "skip-list",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Skip list",
+      "ru": "Список с пропусками"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "algorithms",
+      "databases"
+    ],
+    "estDays": 6,
+    "url": "https://fallowlone.com/en/projects/skip-list"
+  },
+  {
+    "slug": "system-design-dossier",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "System Design Dossier",
+      "ru": "Досье по проектированию системы"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "system-design-cases",
+      "system-design"
+    ],
+    "estDays": 8,
+    "url": "https://fallowlone.com/en/projects/system-design-dossier"
+  },
+  {
+    "slug": "text-diff-myers",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Text diff — Myers algorithm",
+      "ru": "Текстовый diff — алгоритм Майерса"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "algorithms",
+      "engineering-practice"
+    ],
+    "estDays": 6,
+    "url": "https://fallowlone.com/en/projects/text-diff-myers"
+  },
+  {
+    "slug": "threat-model-and-harden",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Threat-Model and Harden a Small App",
+      "ru": "Моделирование угроз и закаливание небольшого приложения"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "security-foundations",
+      "security",
+      "security-defensive"
+    ],
+    "estDays": 8,
+    "url": "https://fallowlone.com/en/projects/threat-model-and-harden"
+  },
+  {
+    "slug": "three-tier-on-aws",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Three-Tier App on AWS, by IaC",
+      "ru": "Трёхзвенное приложение на AWS через IaC"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "aws",
+      "docker",
+      "security-cloud"
+    ],
+    "estDays": 9,
+    "url": "https://fallowlone.com/en/projects/three-tier-on-aws"
+  },
+  {
+    "slug": "tiny-stack-vm",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Tiny Stack VM",
+      "ru": "Крошечная стековая виртуальная машина"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "base-cs",
+      "algorithms"
+    ],
+    "estDays": 9,
+    "url": "https://fallowlone.com/en/projects/tiny-stack-vm"
+  },
+  {
+    "slug": "topological-scheduler",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Topological build scheduler",
+      "ru": "Планировщик сборки на топологической сортировке"
+    },
+    "difficulty": "intermediate",
+    "tracks": [
+      "algorithms",
+      "engineering-practice"
+    ],
+    "estDays": 4,
+    "url": "https://fallowlone.com/en/projects/topological-scheduler"
+  },
+  {
+    "slug": "trie-autocomplete",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Trie autocomplete engine",
+      "ru": "Движок автодополнения на основе trie"
+    },
+    "difficulty": "intermediate",
+    "tracks": [
+      "algorithms",
+      "frontend"
+    ],
+    "estDays": 4,
+    "url": "https://fallowlone.com/en/projects/trie-autocomplete"
+  },
+  {
+    "slug": "truth-table-prover",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Truth-Table Prover",
+      "ru": "Прувер по таблицам истинности"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "logic",
+      "algorithms"
+    ],
+    "estDays": 8,
+    "url": "https://fallowlone.com/en/projects/truth-table-prover"
+  },
+  {
+    "slug": "type-safe-sdk",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Type-Safe API SDK",
+      "ru": "Типобезопасный SDK для API"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "typescript",
+      "apis",
+      "backend"
+    ],
+    "estDays": 8,
+    "url": "https://fallowlone.com/en/projects/type-safe-sdk"
+  },
+  {
+    "slug": "union-find",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Union-Find (Disjoint Set Union)",
+      "ru": "Union-Find (система непересекающихся множеств)"
+    },
+    "difficulty": "intermediate",
+    "tracks": [
+      "algorithms",
+      "distributed"
+    ],
+    "estDays": 4,
+    "url": "https://fallowlone.com/en/projects/union-find"
+  },
+  {
+    "slug": "url-shortener-at-scale",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "URL shortener at scale",
+      "ru": "URL-сокращатель под нагрузкой"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "system-design",
+      "apis",
+      "databases",
+      "backend",
+      "caching",
+      "security",
+      "engineering-practice",
+      "ci-cd",
+      "deployment",
+      "observability",
+      "performance"
+    ],
+    "estDays": 10,
+    "url": "https://fallowlone.com/en/projects/url-shortener-at-scale"
+  },
+  {
+    "slug": "virtual-data-grid",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Virtual data grid",
+      "ru": "Виртуальная таблица данных"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "frontend",
+      "performance"
+    ],
+    "estDays": 5,
+    "url": "https://fallowlone.com/en/projects/virtual-data-grid"
+  },
+  {
+    "slug": "write-ahead-log",
+    "stack": "bun-ts",
+    "test": "bun test",
+    "title": {
+      "en": "Crash-safe key-value store with a WAL",
+      "ru": "Краш-устойчивое key-value хранилище с WAL"
+    },
+    "difficulty": "advanced",
+    "tracks": [
+      "databases",
+      "distributed"
+    ],
+    "estDays": 7,
+    "url": "https://fallowlone.com/en/projects/write-ahead-log"
+  }
+]

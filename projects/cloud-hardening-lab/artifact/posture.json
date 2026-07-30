@@ -1,0 +1,32 @@
+{
+  "provider": "",
+  "baseline": {
+    "tool": "",
+    "at": "",
+    "findings": []
+  },
+  "after": {
+    "tool": "",
+    "at": "",
+    "findings": []
+  },
+  "controls": {
+    "iamLeastPrivilege": {
+      "done": false
+    },
+    "networkClosed": {
+      "done": false,
+      "openToWorldPorts": [
+        22,
+        5432
+      ]
+    },
+    "secretsManaged": {
+      "done": false,
+      "plaintextSecretsRemaining": 3
+    },
+    "auditTrail": {
+      "done": false
+    }
+  }
+}

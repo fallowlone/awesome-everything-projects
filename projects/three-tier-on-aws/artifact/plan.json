@@ -1,0 +1,104 @@
+{
+  "format_version": "1.2",
+  "planned_values": {
+    "root_module": {
+      "resources": [
+        {
+          "address": "aws_vpc.main",
+          "type": "aws_vpc",
+          "name": "main",
+          "values": {
+            "cidr_block": "10.0.0.0/16"
+          }
+        },
+        {
+          "address": "aws_subnet.a",
+          "type": "aws_subnet",
+          "name": "a",
+          "values": {
+            "availability_zone": "eu-central-1a",
+            "map_public_ip_on_launch": true
+          }
+        },
+        {
+          "address": "aws_subnet.b",
+          "type": "aws_subnet",
+          "name": "b",
+          "values": {
+            "availability_zone": "eu-central-1a",
+            "map_public_ip_on_launch": true
+          }
+        },
+        {
+          "address": "aws_security_group.all",
+          "type": "aws_security_group",
+          "name": "all",
+          "values": {
+            "ingress": [
+              {
+                "from_port": 22,
+                "to_port": 22,
+                "cidr_blocks": [
+                  "0.0.0.0/0"
+                ]
+              },
+              {
+                "from_port": 5432,
+                "to_port": 5432,
+                "cidr_blocks": [
+                  "0.0.0.0/0"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "address": "aws_db_instance.pg",
+          "type": "aws_db_instance",
+          "name": "pg",
+          "values": {
+            "publicly_accessible": true,
+            "storage_encrypted": false,
+            "backup_retention_period": 0,
+            "skip_final_snapshot": true,
+            "password": "postgres-admin-2026"
+          }
+        },
+        {
+          "address": "aws_s3_bucket.assets",
+          "type": "aws_s3_bucket",
+          "name": "assets",
+          "values": {
+            "bucket": "my-assets"
+          }
+        },
+        {
+          "address": "aws_iam_policy.admin",
+          "type": "aws_iam_policy",
+          "name": "admin",
+          "values": {
+            "policy": "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Effect\":\"Allow\",\"Action\":\"*\",\"Resource\":\"*\"}]}"
+          }
+        },
+        {
+          "address": "aws_lb.front",
+          "type": "aws_lb",
+          "name": "front",
+          "values": {
+            "internal": false,
+            "load_balancer_type": "application"
+          }
+        },
+        {
+          "address": "aws_lb_listener.http",
+          "type": "aws_lb_listener",
+          "name": "http",
+          "values": {
+            "port": 80,
+            "protocol": "HTTP"
+          }
+        }
+      ]
+    }
+  }
+}

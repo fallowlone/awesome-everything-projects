@@ -1,0 +1,50 @@
+{
+  "platform": "Platform",
+  "contexts": [
+    {
+      "id": "app",
+      "name": "App",
+      "owner": "",
+      "ownsData": [
+        "main_db"
+      ],
+      "responsibility": "does things"
+    },
+    {
+      "id": "worker",
+      "name": "Worker",
+      "owner": "",
+      "ownsData": [
+        "main_db"
+      ],
+      "responsibility": "background"
+    }
+  ],
+  "integrations": [
+    {
+      "from": "app",
+      "to": "worker",
+      "style": "shared-db"
+    }
+  ],
+  "patterns": [
+    {
+      "name": "Microservices",
+      "appliedTo": [
+        "app"
+      ],
+      "problem": "TBD",
+      "cost": ""
+    }
+  ],
+  "adrs": [
+    {
+      "id": "adr-1",
+      "title": "Use microservices",
+      "status": "accepted",
+      "context": "",
+      "decision": "Split things up",
+      "consequences": ""
+    }
+  ]
+}

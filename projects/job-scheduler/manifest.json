@@ -1,0 +1,16 @@
+{
+  "slug": "job-scheduler",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Job scheduler",
+    "ru": "Планировщик задач"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "backend",
+    "queues"
+  ],
+  "estDays": 6,
+  "url": "https://fallowlone.com/en/projects/job-scheduler"
+}

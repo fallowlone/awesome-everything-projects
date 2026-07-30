@@ -1,0 +1,45 @@
+{
+  "segments": [
+    {
+      "id": "lan",
+      "name": "Home",
+      "vlan": 1,
+      "purpose": "trusted",
+      "internetAccess": true
+    }
+  ],
+  "rules": [
+    {
+      "from": "any",
+      "to": "any",
+      "ports": [
+        "any"
+      ],
+      "action": "allow"
+    }
+  ],
+  "services": [
+    {
+      "name": "nas-web",
+      "segment": "lan",
+      "exposed": true,
+      "auth": "basic",
+      "tls": false
+    },
+    {
+      "name": "camera",
+      "segment": "lan",
+      "exposed": true,
+      "auth": "none",
+      "tls": false
+    }
+  ],
+  "backups": {
+    "target": "USB disk on the desk",
+    "frequency": "when I remember",
+    "offsite": false
+  },
+  "updates": {
+    "automatic": false
+  }
+}

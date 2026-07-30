@@ -1,0 +1,16 @@
+{
+  "slug": "topological-scheduler",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Topological build scheduler",
+    "ru": "Планировщик сборки на топологической сортировке"
+  },
+  "difficulty": "intermediate",
+  "tracks": [
+    "algorithms",
+    "engineering-practice"
+  ],
+  "estDays": 4,
+  "url": "https://fallowlone.com/en/projects/topological-scheduler"
+}

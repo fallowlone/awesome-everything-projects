@@ -1,0 +1,17 @@
+{
+  "slug": "nest-modular-service",
+  "stack": "bun-ts",
+  "test": "bun test",
+  "title": {
+    "en": "Production-Shaped Nest Service",
+    "ru": "Nest-сервис в продакшен-форме"
+  },
+  "difficulty": "advanced",
+  "tracks": [
+    "nest",
+    "backend",
+    "node"
+  ],
+  "estDays": 9,
+  "url": "https://fallowlone.com/en/projects/nest-modular-service"
+}

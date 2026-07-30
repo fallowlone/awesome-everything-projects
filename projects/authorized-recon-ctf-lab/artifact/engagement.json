@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "scope": [],
+  "activities": [
+    {
+      "at": "",
+      "target": "192.168.1.1",
+      "action": "port scan"
+    }
+  ],
+  "findings": [
+    {
+      "id": "f1",
+      "target": "192.168.1.1",
+      "severity": "high",
+      "title": "something looked open"
+    }
+  ]
+}
