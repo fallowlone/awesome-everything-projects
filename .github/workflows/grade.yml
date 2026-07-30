@@ -71,7 +71,9 @@ jobs:
             # New branch or forced push: fall back to the previous commit.
             echo "args=--changed HEAD~1" >> "$GITHUB_OUTPUT"
           else
-            echo "args=--all" >> "$GITHUB_OUTPUT"
+            # No resolvable base (initial push). Pristine scaffolds fail by design, so
+            # grading everything here would paint a red badge on untouched work.
+            echo "args=" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Grade
