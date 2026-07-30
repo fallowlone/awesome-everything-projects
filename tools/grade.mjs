@@ -78,8 +78,11 @@ function typecheckTs(dir) {
 
 function lintPython(dir) {
   if (has("ruff", ["--version"])) {
-    const r = run("ruff", ["check", "."], dir);
-    return { name: "ruff", ok: r.code === 0, out: r.out };
+    // Bug-only rule set (syntax errors, undefined names, bad comparisons) selected on the
+    // command line. Ruff's defaults flag import formatting in the SHIPPED test files —
+    // grading a learner on style they did not write is noise, not signal.
+    const r = run("ruff", ["check", "--no-cache", "--select", "E9,F63,F7,F82", "."], dir);
+    return { name: "ruff (bug rules)", ok: r.code === 0, out: r.out };
   }
   const r = run("python3", ["-m", "compileall", "-q", "."], dir);
   return { name: "compileall", ok: r.code === 0, out: r.out };
